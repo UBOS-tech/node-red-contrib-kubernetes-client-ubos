@@ -1,5 +1,5 @@
 {
-  "name": "red-contrib-kubernetes-client-ubos",
+  "name": "node-red-contrib-kubernetes-client-ubos",
   "version": "1.0.0",
   "description": "A node-red node that supports interacting with kubernetes clusters (watches, http API)",
   "main": "src/index.js",

@@ -1,0 +1,34 @@
+{
+  "name": "red-contrib-kubernetes-client-ubos",
+  "version": "1.0.0",
+  "description": "A node-red node that supports interacting with kubernetes clusters (watches, http API)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UBOS-tech/node-red-contrib-kubernetes-client-ubos.git"
+  },
+  "keywords": [
+    "node-red",
+    "node",
+    "nodered",
+    "k8s",
+    "kubernetes",
+    "client"
+  ],
+  "author": "ubos developers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UBOS-tech/node-red-contrib-kubernetes-client-ubos/issues"
+  },
+  "homepage": "https://github.com/UBOS-tech/node-red-contrib-kubernetes-client-ubos#readme",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.11.0",
+    "lru-cache": "^5.1.1",
+    "query-string": "^6.9.0",
+    "request": "^2.88.0",
+    "uri-js": "^4.2.2"
+  }
+}

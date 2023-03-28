@@ -18,6 +18,11 @@
     "kubernetes",
     "client"
   ],
+  "node-red": { 
+    "nodes": { 
+      "kubernetes-client": "src/index.js" 
+    } 
+  }, 
   "author": "ubos developers",
   "license": "ISC",
   "bugs": {
